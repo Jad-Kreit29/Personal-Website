@@ -3,9 +3,27 @@ import headshot from '../images/headshot.jpg'
 
 const Hero = () => {
   return (
-    <div className='bg-amber-400 p-6'>
+    <div className='bg-amber-400 p-10'>
 
-        <img className='object-cover object-[0%_70%] rounded-full h-100 w-100' src={headshot}/>
+        <div className='flex justify-center'>
+
+          <div className='grid grid-cols-2 items-center gap-15'>
+
+            {/* Play around with the sizing here a bit more! */}
+            <img className='object-cover object-[0%_70%] rounded-full h-70 sm:h-120 w-70 sm:w-120 border-8 border-white' src={headshot}/>
+
+            <div>
+
+              <h1 className='font-script text-[150px] text-white'>Jad Kreit</h1>
+              <p className='text-white font-mono text-lg'>Dedicated programmer making life more fun!</p>
+              
+            </div>
+
+            
+          </div>
+
+        </div>
+
 
     </div>
   )
