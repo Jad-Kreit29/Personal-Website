@@ -24,6 +24,13 @@ const Hero = () => {
 
         </div>
 
+        <div>
+
+          <h1 className='flex justify-center'>wow</h1>
+
+        </div>
+
+        <br></br>
 
     </div>
   )
