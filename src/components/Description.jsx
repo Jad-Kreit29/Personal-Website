@@ -22,7 +22,7 @@ const Description = () => {
           I am a massive NERD &#x1F913; From being a gamer to a film creator, and sometimes a 3D artist, I love to express myself through many unique outlets.
           Most importantly, I LOVE solving puzzles. Why is that important? Because being a software developer is all about finding creative solutions to everyday problems!
           <br/><br/>
-          I approach every challenge like a puzzle to be solved. Through my leadership skills in the <a className='font-bold underline underline-offset-1' href='https://www.instagram.com/uogamedev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>uOttawa Game Development Club</a>, I value the importance of clear and effecient communcation, whilst making everyone feel welcome and comfortable.
+          I approach every challenge like a puzzle to be solved. Through my leadership skills in the <a className='font-bold underline underline-offset-1' target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/uogamedev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>uOttawa Game Development Club</a>, I value the importance of clear and effecient communcation, whilst making everyone feel welcome and comfortable.
           I believe that good design comes from the participation of every person, and I always seek to learning new skills and ideas with the support of the people around me.
         </p>
 

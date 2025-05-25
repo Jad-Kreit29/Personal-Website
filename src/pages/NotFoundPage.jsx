@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { FaWrench, FaExclamationTriangle } from 'react-icons/fa'
 
 const NotFoundPage = () => {
@@ -16,8 +15,6 @@ const NotFoundPage = () => {
       </div>
     
     </>
-
-    
 
   )
 }
