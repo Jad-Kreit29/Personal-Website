@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Cards = ({ bg, img, title, subtitle, pos }) => {
   return (
 
     // Entire Card
 
-    <div className={`bg-[${bg}] max-w-md max-h-md border rounded-lg overflow-hidden ${pos}`}>
+    <div className={`bg-[${bg}] duration-300 ease-in hover:bg-[#185C77] max-w-md max-h-md rounded-lg overflow-hidden ${pos}`}>
 
         {/* Image*/}
 
@@ -31,11 +32,17 @@ const Cards = ({ bg, img, title, subtitle, pos }) => {
 
         <div className='px-4 pb-4'>
 
-          <button className='bg-amber-400 p-3 rounded-full text-sm text-black font-bold hover:bg-[#F0AD05] focus:outline-2 focus:outline-offset-2 focus:outline-[#F0AD05] active:bg-[#DC9F04]' type='button'>Learn More</button>
+          <button className='bg-amber-400 p-3 rounded-full text-sm text-black font-bold hover:bg-[#F0AD05] focus:outline-2 focus:outline-offset-2 focus:outline-[#F0AD05] active:bg-[#DC9F04]' type='button'>
+            
+            <Link to='/project'>
+
+              Learn More
+            
+            </Link>
+            
+          </button>
 
         </div>
-
-
 
     </div>
 
