@@ -18,7 +18,6 @@ const Cards = ({img, title, subtitle, pos }) => {
 
         </div> */}
 
-
         {/* Description Holder */}
 
         <div className='px-6 py-4'>

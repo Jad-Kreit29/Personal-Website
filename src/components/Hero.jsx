@@ -12,12 +12,12 @@ const Hero = () => {
           <div className='grid grid-cols-2 items-center gap-15'>
 
             {/* Play around with the sizing here a bit more! */}
-            <img className='object-cover object-[0%_70%] rounded-full h-70 sm:h-120 w-70 sm:w-120 border-8 border-white' src={headshot}/>
+            <img className='object-cover object-[0%_70%] rounded-full h-70 sm:h-120 w-70 sm:w-120 border-8 border-white shadow-2xl' src={headshot}/>
 
             <div>
 
               <h1 className='font-script text-[150px] text-white'>Jad Kreit</h1>
-              <p className='text-white font-mono text-xl font-bold'>3rd Year SWE Student @ uOttawa</p>
+              <p className='text-gray-50 font-mono text-xl font-bold'>3rd Year SWE Student @ uOttawa</p>
               
             </div>
 
