@@ -20,7 +20,7 @@ const NavBar = () => {
 
                 <NavLink to="/game-project" className={linkClass}>Webgame</NavLink>
 
-                <NavLink to="/ecommerce-project" className={linkClass}>eCommerce Wesbite</NavLink>
+                <NavLink to="/ecommerce-project" className={linkClass}>E-Commerce Wesbite</NavLink>
 
                 <NavLink to="/sports-project" className={linkClass}>Sports Wesbite</NavLink>
 

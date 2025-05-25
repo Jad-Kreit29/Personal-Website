@@ -12,18 +12,12 @@ const Cards = ({img, title, subtitle, pos }) => {
 
         <img className='object-cover w-[600px] h-[200px]' src = {img} />
 
-        {/* <div className='relative bg-red-500 pb-[66.6%]'>
-
-          <img className='absolute h-full w-full object-cover' src = {img} />
-
-        </div> */}
-
         {/* Description Holder */}
 
         <div className='px-6 py-4'>
 
           <h4 className='text-white font-semibold text-xl mb-3'>{title}</h4>
-          <p className='text-gray-200 text-md'>{subtitle}</p>
+          <p className='text-gray-300 text-sm'>{subtitle}</p>
 
         </div>
 
