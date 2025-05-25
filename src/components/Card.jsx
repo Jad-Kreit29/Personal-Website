@@ -1,29 +1,37 @@
 import React from 'react'
 
-const Cards = ({ bg, img, title, subtitle }) => {
+const Cards = ({ bg, img, title, subtitle, pos }) => {
   return (
 
     // Entire Card
 
-    <div className='bg-white border rounded-lg overflow-hidden'>
+    <div className={`bg-[${bg}] max-w-md max-h-md border rounded-lg overflow-hidden ${pos}`}>
 
         {/* Image*/}
 
-        <img src = {img} />
+        <img className='object-cover w-[600px] h-[200px]' src = {img} />
+
+        {/* <div className='relative bg-red-500 pb-[66.6%]'>
+
+          <img className='absolute h-full w-full object-cover' src = {img} />
+
+        </div> */}
+
 
         {/* Description Holder */}
 
-        <div className='p-6'>
+        <div className='px-6 py-4'>
 
-          <h4 className='font-semibold text-lg'>{title}</h4>
-          <span>{subtitle}</span>
-
+          <h4 className='text-white font-semibold text-xl mb-3'>{title}</h4>
+          <p className='text-gray-200 text-md'>{subtitle}</p>
 
         </div>
 
         {/* View Button */}
 
-        <div>
+        <div className='px-4 pb-4'>
+
+          <button className='bg-amber-400 p-3 rounded-full text-sm text-black font-bold hover:bg-[#F0AD05] focus:outline-2 focus:outline-offset-2 focus:outline-[#F0AD05] active:bg-[#DC9F04]' type='button'>Learn More</button>
 
         </div>
 

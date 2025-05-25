@@ -1,7 +1,9 @@
 import React from 'react'
 import Card from './Card'
-import image1 from '../images/game-design.jpg'
-import headshot from '../images/headshot.jpg'
+import repairImage from '../images/repair-shop.jpg'
+import gameImage from '../images/game-design.jpg'
+import shoppingImage from '../images/shopping.jpg'
+import sportsImage from '../images/sports.jpg'
 
 const Description = () => {
   return (
@@ -14,7 +16,8 @@ const Description = () => {
 
         <h1 className='font-script text-[150px] text-white'>ABOUT ME</h1>
 
-        <p className='font-space-mono text-white'>Hello! My name is <b>Jad Kreit</b> and I love to program by having fun. </p>
+        {/* <p className='font-space-mono text-white'>Hello! My name is <b>Jad Kreit</b> and I love to program by having fun. </p> */}
+        <p className='font-space-mono text-white'>Placeholder placeholder placeholder placeholder</p>
 
       </div>
 
@@ -26,10 +29,15 @@ const Description = () => {
 
         {/* Grids/Cards Section */}
 
-        <div>
+        <div className='grid grid-cols-3 gap-5 place-items-center-safe'>
 
-          <Card img={image1} bg={'bg-red-600'} title={'Title'} subtitle={'Subtitle'} />
+          <Card img={repairImage} title={'Title'} subtitle={'Subtitle'} bg='#124559' />
 
+          <Card img={gameImage} title={'Title'} subtitle={'Subtitle'} bg='#124559' />
+
+          <Card img={shoppingImage} title={'Title'} subtitle={'Subtitle'} bg='#124559' />
+
+          <Card img={sportsImage} title={'Title'} subtitle={'Subtitle'} pos={'col-start-2'} bg='#124559' />
 
         </div>
 
