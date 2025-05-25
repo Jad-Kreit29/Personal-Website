@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Cards = ({ bg, img, title, subtitle, pos }) => {
+const Cards = ({img, title, subtitle, pos }) => {
   return (
 
     // Entire Card
 
-    <div className={`bg-[${bg}] duration-300 ease-in hover:bg-[#185C77] max-w-md max-h-md rounded-lg overflow-hidden ${pos}`}>
+    <div className={`bg-[#124559] duration-200 ease-in hover:bg-[#185C77] max-w-md max-h-md rounded-lg overflow-hidden ${pos}`}>
 
         {/* Image*/}
 

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const NavBar = () => {
   return (
 
-    <nav className='bg-amber-300 border-b-3 border-b-emerald-500'>
+    <nav className='bg-amber-300 border-b-3 border-b-emerald-500 sticky top-0'>
 
         <div>
             <div className='flex space-x-2'>

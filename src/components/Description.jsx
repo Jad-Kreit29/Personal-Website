@@ -31,13 +31,13 @@ const Description = () => {
 
         <div className='grid grid-cols-3 gap-5 place-items-center-safe'>
 
-          <Card img={repairImage} title={'Title'} subtitle={'Subtitle'} bg='#124559' />
+          <Card img={repairImage} title={'Title'} subtitle={'Subtitle'} />
 
-          <Card img={gameImage} title={'Title'} subtitle={'Subtitle'} bg='#124559' />
+          <Card img={gameImage} title={'Title'} subtitle={'Subtitle'} />
 
-          <Card img={shoppingImage} title={'Title'} subtitle={'Subtitle'} bg='#124559' />
+          <Card img={shoppingImage} title={'Title'} subtitle={'Subtitle'} />
 
-          <Card img={sportsImage} title={'Title'} subtitle={'Subtitle'} pos={'col-start-2'} bg='#124559' />
+          <Card img={sportsImage} title={'Title'} subtitle={'Subtitle'} pos={'col-start-2'} />
 
         </div>
 

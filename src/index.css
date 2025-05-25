@@ -5,4 +5,19 @@
 @theme {
     --font-script: "Squada One", sans-serif;
     --font-space-mono: "Space Mono", monospace;
+
+    --animate-loop-scroll: loop-scroll 25s linear infinite;
+
+
+    @keyframes loop-scroll {
+
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+
+    }
+
 }
