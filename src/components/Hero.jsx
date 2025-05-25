@@ -17,7 +17,7 @@ const Hero = () => {
             <div>
 
               <h1 className='font-script text-[150px] text-white'>Jad Kreit</h1>
-              <p className='text-gray-50 font-mono text-xl font-bold'>3rd Year SWE Student @ uOttawa</p>
+              <p className='text-gray-50 font-mono text-xl font-bold'>3rd Year SWE Student @ uOttawa &#x1F3DB;</p>
               
             </div>
 
@@ -40,6 +40,7 @@ const Hero = () => {
             <h1>Gamer &#x1F3AE;</h1>
             <h1>Artist &#x1F9D1;&#x200D;&#x1F3A8;</h1>
             <h1>Leader &#x1F4CB;</h1>
+            <h1>Photographer &#x1F4F8;</h1>
 
           </div>
 
@@ -52,6 +53,7 @@ const Hero = () => {
             <h1>Gamer &#x1F3AE;</h1>
             <h1>Artist &#x1F9D1;&#x200D;&#x1F3A8;</h1>
             <h1>Leader &#x1F4CB;</h1>
+            <h1>Photographer &#x1F4F8;</h1>
 
           </div>
 
