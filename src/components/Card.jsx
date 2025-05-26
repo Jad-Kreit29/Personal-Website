@@ -16,8 +16,8 @@ const Cards = ({img, title, subtitle, pos }) => {
 
         <div className='px-6 py-4'>
 
-          <h4 className='text-white font-semibold text-xl mb-3'>{title}</h4>
-          <p className='text-gray-300 text-sm'>{subtitle}</p>
+          <h4 className='text-white font-semibold font-space-mono text-xl mb-3'>{title}</h4>
+          <p className='text-gray-300 font-space-mono text-sm'>{subtitle}</p>
 
         </div>
 
