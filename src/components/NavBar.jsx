@@ -16,7 +16,7 @@ const NavBar = () => {
 
                 <NavLink to="/" className={linkClass}>Home</NavLink>
 
-                <NavLink to="/autoshop-project" className={linkClass}>Autoshop Wesbite</NavLink>
+                <NavLink to="https://bike-repair-site.pages.dev/" className={linkClass}>Bike-Repair Project</NavLink>
 
                 <NavLink to="/game-project" className={linkClass}>Webgame</NavLink>
 
