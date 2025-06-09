@@ -38,7 +38,7 @@ const Description = () => {
 
         <div className='grid grid-cols-3 gap-5 place-items-center-safe'>
 
-          <Card img={repairImage} title={'Bike-Repair Shop Website - Bikety'} subtitle={'A website designed for a local bike repair shop!'} link="https://bike-repair-site.pages.dev/" />
+          <Card img={repairImage} title={'Bike-Repair Shop'} subtitle={'A website designed for a local bike repair shop, Bikety!'} link="https://bike-repair-site.pages.dev/" />
 
           <Card img={gameImage} title={'Webgame'} subtitle={'A 2D platformer created with basic web technologies.'} />
 
