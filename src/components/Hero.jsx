@@ -12,7 +12,7 @@ const Hero = () => {
           <div className='grid grid-cols-2 items-center gap-15'>
 
             {/* Play around with the sizing here a bit more! */}
-            <img className='object-cover object-[0%_70%] rounded-full h-70 sm:h-120 w-70 sm:w-120 border-8 border-white shadow-2xl' src={headshot}/>
+            <img loading='lazy' className='object-cover object-[0%_70%] rounded-full h-70 sm:h-120 w-70 sm:w-120 border-8 border-white shadow-2xl' src={headshot}/>
 
             <div>
 

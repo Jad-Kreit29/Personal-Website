@@ -2,7 +2,8 @@ import React from 'react'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
 import Homepage from './pages/Homepage'
-import AboutPage from './pages/AboutPage'
+import ServicePage from './pages/ServicePage'
+import Gamepage from './pages/Gamepage'
 import NotFoundPage from './pages/NotFoundPage'
 
 const router = createBrowserRouter(
@@ -13,7 +14,8 @@ const router = createBrowserRouter(
     <Route path='/' element={<MainLayout />}>
 
       <Route index element={<Homepage/>} />
-      <Route path='/about' element={<AboutPage/>} />
+      <Route path='/game' element={<Gamepage />} />
+      <Route path='/service' element={<ServicePage/>} />
       <Route path='*' element={<NotFoundPage/>} />
 
     </Route>
