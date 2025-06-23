@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Cards = ({img, title, subtitle, pos, link = "/project" }) => {
+const Cards = ({img, title, subtitle, pos, link = "/project", txtSize = "text-sm" }) => {
   return (
 
     // Entire Card
@@ -17,7 +17,7 @@ const Cards = ({img, title, subtitle, pos, link = "/project" }) => {
         <div className='px-6 py-4'>
 
           <h4 className='text-white font-semibold font-space-mono text-xl mb-3'>{title}</h4>
-          <p className='text-gray-300 font-space-mono text-sm'>{subtitle}</p>
+          <p className={`text-gray-300 font-space-mono ${txtSize}`}>{subtitle}</p>
 
         </div>
 
