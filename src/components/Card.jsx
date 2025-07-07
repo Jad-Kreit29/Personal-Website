@@ -10,7 +10,7 @@ const Cards = ({img, title, subtitle, pos, link = "/project", txtSize = "text-sm
 
         {/* Image*/}
 
-        <img className='object-cover w-[600px] h-[200px]' src = {img} />
+        <img className='object-cover object-top w-[600px] h-[200px]' src = {img} />
 
         {/* Description Holder */}
 

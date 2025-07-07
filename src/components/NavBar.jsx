@@ -16,11 +16,11 @@ const NavBar = () => {
 
                 <NavLink to="/" className={linkClass}>Home</NavLink>
 
-                <NavLink to="/service" className={linkClass}>Bike-Repair Project</NavLink>
+                <NavLink to="/service" className={linkClass}>Bike-Repair Site</NavLink>
 
-                <NavLink to="/game" className={linkClass}>Webgame</NavLink>
+                <NavLink to="/game" className={linkClass}>Memory Webgame</NavLink>
 
-                <NavLink to="/ecommerce-project" className={linkClass}>E-Commerce Wesbite</NavLink>
+                <NavLink to="/ecommerce" className={linkClass}>E-Commerce Site</NavLink>
 
                 <NavLink to="/sports-project" className={linkClass}>Sports Wesbite</NavLink>
 

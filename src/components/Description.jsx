@@ -38,11 +38,11 @@ const Description = () => {
 
         <div className='grid grid-cols-3 gap-5 place-items-center-safe'>
 
-          <Card img={repairImage} title={'Bikety Repair Shop'} subtitle={'A website designed for a local bike repair shop!'} link="https://bike-repair-site.pages.dev/"/>
+          <Card img={repairImage} title={'Bikety Repair Shop'} subtitle={'A website designed for a local bike repair shop!'} link="https://bike-repair-site.pages.dev"/>
 
-          <Card img={gameImage} title={'ArithMemory Game'} subtitle={'Test of your memory in a game of digit/expression sequences!'} link='https://webgame-site.pages.dev/' />
+          <Card img={gameImage} title={'ArithMemory Game'} subtitle={'Test of your memory in a game of digit/expression sequences!'} link='https://webgame-site.pages.dev' />
 
-          <Card img={shoppingImage} title={'E-Commerce Website'} subtitle={'A modern e-commerce site powered with React JS.'} />
+          <Card img={shoppingImage} title={'ChocoZoo E-Commerce Site'} subtitle={'A website designed for a local animal chococlate store!'} link='https://ecommerce-site-2bj.pages.dev'/>
 
           <Card img={sportsImage} title={'Sports Website'} subtitle={'A sports analytics site created with Next JS to track scores of your favourite sports teams.'} pos={'col-start-2'} />
 

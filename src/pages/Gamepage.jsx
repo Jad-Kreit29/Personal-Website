@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Gamepage = () => {
+const GamePage = () => {
   return (
 
-    <iframe loading='lazy' src="https://webgame-site.pages.dev/" title="ArithMemory" className='flex w-full h-screen'>
+    <iframe loading='lazy' src="https://webgame-site.pages.dev" title="ArithMemory" className='flex w-full h-screen'>
 
     </iframe>
 
   )
 }
 
-export default Gamepage
+export default GamePage
