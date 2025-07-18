@@ -7,7 +7,7 @@ import Homepage from './pages/Homepage'
 import Servicepage from './pages/Servicepage'
 import Gamepage from './pages/Gamepage'
 import Ecommercepage from './pages/EcommercePage'
-import NotFoundpage from './pages/NotFoundpage'
+import Notfoundpage from './pages/Notfoundpage'
 
 const router = createBrowserRouter(
 
@@ -24,7 +24,7 @@ const router = createBrowserRouter(
 
       <Route path='/ecommerce' element={<Ecommercepage />} />
 
-      <Route path='*' element={<NotFoundpage/>} />
+      <Route path='*' element={<Notfoundpage/>} />
 
     </Route>
 

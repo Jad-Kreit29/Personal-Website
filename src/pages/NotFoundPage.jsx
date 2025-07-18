@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaWrench, FaExclamationTriangle } from 'react-icons/fa'
 
-const NotFoundpage = () => {
+const Notfoundpage = () => {
   return (
 
     <>
@@ -19,4 +19,4 @@ const NotFoundpage = () => {
   )
 }
 
-export default NotFoundpage
+export default Notfoundpage
