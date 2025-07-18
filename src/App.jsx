@@ -3,7 +3,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import MainLayout from './layouts/MainLayout'
 
 // Site Pages
-import HomePage from './pages/HomePage'
+import HomePage from './pages/Homepage'
 import ServicePage from './pages/ServicePage'
 import GamePage from './pages/GamePage'
 import EcommercePage from './pages/EcommercePage'
