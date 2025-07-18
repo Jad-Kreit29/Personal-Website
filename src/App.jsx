@@ -6,7 +6,7 @@ import MainLayout from './layouts/MainLayout'
 import HomePage from './pages/Homepage'
 import ServicePage from './pages/Servicepage'
 import GamePage from './pages/Gamepage'
-import EcommercePage from './pages/Ecommercepage'
+import EcommercePage from './pages/ecommercepage'
 import NotFoundPage from './pages/NotFoundpage'
 
 const router = createBrowserRouter(
