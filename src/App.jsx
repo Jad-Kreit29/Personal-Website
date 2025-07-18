@@ -3,11 +3,11 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import MainLayout from './layouts/MainLayout'
 
 // Site Pages
-import HomePage from './pages/Homepage'
-import ServicePage from './pages/Servicepage'
-import GamePage from './pages/Gamepage'
+import Homepage from './pages/Homepage'
+import Servicepage from './pages/Servicepage'
+import Gamepage from './pages/Gamepage'
 import Ecommercepage from './pages/EcommercePage'
-import NotFoundPage from './pages/NotFoundpage'
+import NotFoundpage from './pages/NotFoundpage'
 
 const router = createBrowserRouter(
 
@@ -16,15 +16,15 @@ const router = createBrowserRouter(
     
     <Route path='/' element={<MainLayout />}>
 
-      <Route index element={<HomePage/>} />
+      <Route index element={<Homepage/>} />
 
-      <Route path='/service' element={<ServicePage/>} />
+      <Route path='/service' element={<Servicepage/>} />
 
-      <Route path='/game' element={<GamePage />} />
+      <Route path='/game' element={<Gamepage />} />
 
       <Route path='/ecommerce' element={<Ecommercepage />} />
 
-      <Route path='*' element={<NotFoundPage/>} />
+      <Route path='*' element={<NotFoundpage/>} />
 
     </Route>
 
