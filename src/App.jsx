@@ -5,7 +5,7 @@ import MainLayout from './layouts/MainLayout'
 // Site Pages
 import Homepage from './pages/Homepage'
 import ServicePage from './pages/ServicePage'
-import GamePage from './pages/GamePage'
+import Gamepage from './pages/Gamepage'
 import EcommercePage from './pages/EcommercePage'
 import NotFoundPage from './pages/NotFoundPage'
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
 
       <Route path='/service' element={<ServicePage/>} />
 
-      <Route path='/game' element={<GamePage />} />
+      <Route path='/game' element={<Gamepage />} />
 
       <Route path='/ecommerce' element={<EcommercePage />} />
 
