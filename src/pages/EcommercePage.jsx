@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ecommercepage = () => {
+const Ecommercepage = () => {
   return (
 
     <iframe loading='lazy' src="https://ecommerce-site-2bj.pages.dev" title="ChocoZoo" className='flex w-full h-screen'>
@@ -10,4 +10,4 @@ const ecommercepage = () => {
   )
 }
 
-export default ecommercepage
+export default Ecommercepage
