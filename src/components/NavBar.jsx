@@ -22,7 +22,7 @@ const NavBar = () => {
 
                 <NavLink to="/ecommerce" className={linkClass}>E-Commerce Site</NavLink>
 
-                <NavLink to="/sports-project" className={linkClass}>Sports Wesbite</NavLink>
+                <NavLink to="/dashboard" className={linkClass}>Dashboard Site</NavLink>
 
             </div>
 

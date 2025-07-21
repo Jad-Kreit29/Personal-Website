@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Cards = ({img, title, subtitle, pos, link = "/project", txtSize = "text-sm" }) => {
   return (
@@ -27,11 +26,11 @@ const Cards = ({img, title, subtitle, pos, link = "/project", txtSize = "text-sm
 
           <button className='bg-amber-400 p-3 rounded-full text-sm text-black font-bold hover:bg-[#F0AD05] focus:outline-2 focus:outline-offset-2 focus:outline-[#F0AD05] active:bg-[#DC9F04]' type='button'>
             
-            <Link to={link}>
+            <a target="_blank" href={link}>
 
               Learn More
             
-            </Link>
+            </a>
             
           </button>
 

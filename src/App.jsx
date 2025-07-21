@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage'
 import ServicePage from './pages/ServicePage'
 import Gamepage from './pages/Gamepage'
 import EcommercePage from './pages/EcommercePage'
+import DashboardPage from './pages/DashboardPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 const router = createBrowserRouter(
@@ -23,6 +24,8 @@ const router = createBrowserRouter(
       <Route path='/game' element={<Gamepage />} />
 
       <Route path='/ecommerce' element={<EcommercePage />} />
+
+      <Route path='/dashboard' element={<DashboardPage />} />
 
       <Route path='*' element={<NotFoundPage/>} />
 

@@ -3,7 +3,7 @@ import Card from './Card'
 import repairImage from '../images/repair-shop.jpg'
 import gameImage from '../images/game-design.jpg'
 import shoppingImage from '../images/shopping.jpg'
-import sportsImage from '../images/sports.jpg'
+import dashboardImage from '../images/dashboard.jpg'
 
 const Description = () => {
   return (
@@ -44,7 +44,7 @@ const Description = () => {
 
           <Card img={shoppingImage} title={'ChocoZoo E-Commerce Site'} subtitle={'A website designed for a local animal chococlate store!'} link='https://ecommerce-site-2bj.pages.dev'/>
 
-          <Card img={sportsImage} title={'Sports Website'} subtitle={'A sports analytics site created with Next JS to track scores of your favourite sports teams.'} pos={'col-start-2'} />
+          <Card img={dashboardImage} title={'GamesStat Dashboard Site'} subtitle={'A video game statistics site to visualize different video game data!'} pos={'col-start-2'} link='https://dashboard-site-2iw.pages.dev/' />
 
         </div>
 
